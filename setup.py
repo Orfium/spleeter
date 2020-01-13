@@ -55,7 +55,7 @@ setup(
         'norbert==0.2.1',
         'pandas==0.25.1',
         'requests',
-        'setuptools>=41.0.0',
+        #'setuptools>=41.0.0',
         '{}=={}'.format(tensorflow_dependency, tensorflow_version),
     ],
     extras_require={
